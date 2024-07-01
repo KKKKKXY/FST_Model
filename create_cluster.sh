@@ -149,8 +149,8 @@ pull_onos(){
 
 clone_onos(){
 
-  if [ ! -d "$HOME/onos" ] ; then
-    cd
+  if [ ! -d "$PWD/onos" ] ; then
+    # cd
     git clone https://gerrit.onosproject.org/onos
   fi
 
@@ -245,9 +245,9 @@ apply_atomix_config(){
   for (( i=1; i<=$atomixNum; i++ ))
   do
     pos=$((i-1))
-    cd
-    ./onos/tools/test/bin/atomix-gen-config ${allocatedAtomixIps[$pos]} /tmp/atomix-$i.conf ${allocatedAtomixIps[*]} >/dev/null
-    sudo docker cp /tmp/atomix-$i.conf atomix-$i:/opt/atomix/conf/atomix.conf
+    # cd
+    onos/tools/test/bin/atomix-gen-config ${allocatedAtomixIps[$pos]} tmp/atomix-$i.conf ${allocatedAtomixIps[*]} >/dev/null
+    sudo docker cp tmp/atomix-$i.conf atomix-$i:/opt/atomix/conf/atomix.conf
     sudo docker container start atomix-$i >/dev/null
     echo "Starting container atomix-$i"
   done
@@ -257,11 +257,11 @@ apply_onos_config(){
   for (( i=1; i<=$onosNum; i++ ))
   do
     pos=$((i-1))
-    cd
-    ./onos/tools/test/bin/onos-gen-config ${allocatedOnosIps[$pos]} /tmp/cluster-$i.json -n ${allocatedAtomixIps[*]} >/dev/null
+    # cd
+    onos/tools/test/bin/onos-gen-config ${allocatedOnosIps[$pos]} tmp/cluster-$i.json -n ${allocatedAtomixIps[*]} >/dev/null
     sudo docker exec onos$i mkdir /root/onos/config
     echo "Copying configuration to onos$i"
-    sudo docker cp /tmp/cluster-$i.json onos$i:/root/onos/config/cluster.json
+    sudo docker cp tmp/cluster-$i.json onos$i:/root/onos/config/cluster.json
     echo "Restarting container onos$i"
     sudo docker restart onos$i >/dev/null
   done
