@@ -1,0 +1,1425 @@
+Nothing to flush.
+Nothing to flush.
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 103/0/103 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 102/0/102 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 7316/1/7316 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 28/0/28 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 33/0/33 probes 4 REACHABLE
+fe80::6a4f:64ff:fe98:2bcd dev ens160 lladdr 68:4f:64:98:2b:cd router used 2961/2961/2923 probes 1 STALE
+
+*** Round 1, deleting 11 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=1.983s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=1.983s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=1.983s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=1.983s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=172 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.11 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.092 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.145 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3009ms
+rtt min/avg/max/mdev = 0.092/43.668/172.329/74.286 ms
+
+
+====================================Finished 1 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr ca:94:4b:95:24:20 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr b6:21:af:32:b3:c9 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 1/0/1 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100009465555a, duration=2.003s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.003s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=100 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.56 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.098 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.149 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3028ms
+rtt min/avg/max/mdev = 0.098/25.506/100.217/43.138 ms
+
+
+====================================Finished 2 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr ca:94:4b:95:24:20 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr b6:21:af:32:b3:c9 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 35/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=74.0 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.41 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.095 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.148 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3020ms
+rtt min/avg/max/mdev = 0.095/19.171/74.037/31.690 ms
+
+
+====================================Finished 3 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr ca:94:4b:95:24:20 ref 1 used 12/12/12 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr b6:21:af:32:b3:c9 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/1/36 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 2/2/2 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x1000002bbd8d4, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=79.7 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.25 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.140 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.162 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3011ms
+rtt min/avg/max/mdev = 0.140/20.570/79.729/34.165 ms
+
+
+====================================Finished 4 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr ca:94:4b:95:24:20 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr b6:21:af:32:b3:c9 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/1/35 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.4 dev br-36fd5368aeed lladdr 02:42:ac:14:00:04 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 1/1/1 probes 4 REACHABLE
+172.20.0.3 dev br-36fd5368aeed lladdr 02:42:ac:14:00:03 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100009465555a, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=77.1 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.27 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.168 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.140 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3015ms
+rtt min/avg/max/mdev = 0.140/19.911/77.065/33.009 ms
+
+
+====================================Finished 5 FOR LOOP====================
+
+
+The Finished Date&Time is :2023-04-02 16:41:02.343567Nothing to flush.
+Nothing to flush.
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 78/0/78 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 99/0/99 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 463/0/463 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 33/0/33 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=1.996s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=1.996s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=1.992s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=1.991s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=182 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.37 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.119 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.161 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3026ms
+rtt min/avg/max/mdev = 0.119/46.247/182.336/78.576 ms
+
+
+====================================Finished 1 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 32:8e:44:39:bd:b1 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr fe:53:31:54:54:24 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/1/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 1/0/1 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=101 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.59 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.143 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.168 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3016ms
+rtt min/avg/max/mdev = 0.143/25.697/100.893/43.418 ms
+
+
+====================================Finished 2 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 32:8e:44:39:bd:b1 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr fe:53:31:54:54:24 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 34/0/34 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/2/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.001s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=84.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.01 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.131 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.152 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3011ms
+rtt min/avg/max/mdev = 0.131/21.628/84.224/36.147 ms
+
+
+====================================Finished 3 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 32:8e:44:39:bd:b1 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr fe:53:31:54:54:24 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/2/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100009465555a, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=80.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.12 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.153 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.148 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3034ms
+rtt min/avg/max/mdev = 0.148/20.680/80.302/34.432 ms
+
+
+====================================Finished 4 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 32:8e:44:39:bd:b1 ref 1 used 12/12/12 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr fe:53:31:54:54:24 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.6 dev br-36fd5368aeed lladdr 02:42:ac:14:00:06 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 2/1/2 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=94.4 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.00 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.152 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.150 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 0.150/24.171/94.382/40.543 ms
+
+
+====================================Finished 5 FOR LOOP====================
+
+
+The Finished Date&Time is :2023-04-02 16:51:31.464225Nothing to flush.
+Nothing to flush.
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 42/0/42 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 100/0/100 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 42/0/37 probes 1 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 42/0/42 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 124/0/124 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 42/0/42 probes 4 REACHABLE
+172.20.0.5 dev br-36fd5368aeed lladdr 02:42:ac:14:00:05 used 105/101/83 probes 1 STALE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 42/0/42 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 490/0/490 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 42/0/37 probes 1 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 42/0/42 probes 4 REACHABLE
+
+*** Round 1, deleting 11 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 2/0/2 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 2/0/2 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100007a585b6f, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=1.991s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.008s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.008s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=168 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.72 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.155 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.164 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3025ms
+rtt min/avg/max/mdev = 0.155/42.593/168.340/72.602 ms
+
+
+====================================Finished 1 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 96:4b:99:c2:36:62 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ce:3e:4c:a9:a4:85 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100009465555a, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=95.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.40 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.104 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.124 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3030ms
+rtt min/avg/max/mdev = 0.104/24.636/95.919/41.165 ms
+
+
+====================================Finished 2 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 96:4b:99:c2:36:62 ref 1 used 12/12/12 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ce:3e:4c:a9:a4:85 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 35/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 2/0/2 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.008s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.008s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=75.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.09 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.174 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.166 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3012ms
+rtt min/avg/max/mdev = 0.166/19.587/75.921/32.533 ms
+
+
+====================================Finished 3 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 96:4b:99:c2:36:62 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ce:3e:4c:a9:a4:85 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 35/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.008s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.008s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=89.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.75 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.157 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.146 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3008ms
+rtt min/avg/max/mdev = 0.146/22.987/89.901/38.638 ms
+
+
+====================================Finished 4 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 96:4b:99:c2:36:62 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ce:3e:4c:a9:a4:85 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.8 dev br-36fd5368aeed lladdr 02:42:ac:14:00:08 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.004s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=78.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.25 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.183 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.099 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3020ms
+rtt min/avg/max/mdev = 0.099/19.940/78.231/33.656 ms
+
+
+====================================Finished 5 FOR LOOP====================
+
+
+The Finished Date&Time is :2023-04-02 17:02:26.215530Nothing to flush.
+Nothing to flush.
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 28/0/28 probes 6 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 29/0/28 probes 6 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.7 dev br-36fd5368aeed lladdr 02:42:ac:14:00:07 used 76/71/25 probes 1 STALE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 116/0/116 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 29/0/28 probes 6 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 1204/0/1204 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 33/0/33 probes 4 REACHABLE
+
+*** Round 1, deleting 11 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100007a585b6f, duration=1.994s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=1.994s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=1.994s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=1.994s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000dc56d70b, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=179 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.58 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.156 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.157 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3012ms
+rtt min/avg/max/mdev = 0.156/45.421/178.792/77.008 ms
+
+
+====================================Finished 1 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 3a:d1:3a:40:c7:f2 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr 96:1f:8f:09:9f:da ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 34/0/34 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.004s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.004s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=88.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.22 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.145 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.142 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 0.142/22.863/88.945/38.161 ms
+
+
+====================================Finished 2 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 3a:d1:3a:40:c7:f2 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr 96:1f:8f:09:9f:da ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 34/0/34 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.001s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.001s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.001s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.001s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=82.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.25 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.137 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.138 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3015ms
+rtt min/avg/max/mdev = 0.137/21.329/82.796/35.498 ms
+
+
+====================================Finished 3 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 3a:d1:3a:40:c7:f2 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr 96:1f:8f:09:9f:da ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 34/2/34 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 34/1/34 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 34/0/34 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/1/35 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 34/0/34 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.002s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000dc56d70b, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=89.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.91 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.106 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.098 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 0.098/22.975/89.784/38.579 ms
+
+
+====================================Finished 4 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr 3a:d1:3a:40:c7:f2 ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr 96:1f:8f:09:9f:da ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 36/2/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 34/0/34 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 36/2/36 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 36/2/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.10 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0a ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100007a585b6f, duration=2.004s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.004s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000c70edd85, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=78.6 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.53 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.107 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.148 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3014ms
+rtt min/avg/max/mdev = 0.107/20.347/78.608/33.651 ms
+
+
+====================================Finished 5 FOR LOOP====================
+
+
+The Finished Date&Time is :2023-04-02 17:25:15.813310Nothing to flush.
+Nothing to flush.
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 191/0/191 probes 4 REACHABLE
+172.20.0.9 dev br-36fd5368aeed lladdr 02:42:ac:14:00:09 used 188/188/157 probes 4 STALE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 33/0/33 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 941/0/941 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 33/0/33 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 36/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 11 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=1.999s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=1.997s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=1.997s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=1.997s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000dc56d70b, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=1.992s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=169 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.80 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.138 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.111 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3010ms
+rtt min/avg/max/mdev = 0.111/42.821/169.239/72.990 ms
+
+
+====================================Finished 1 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr da:fb:16:53:65:9b ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ee:d4:dd:10:ac:48 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 35/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/1/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100009465555a, duration=2.003s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.002s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=79.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.34 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.140 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.136 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3034ms
+rtt min/avg/max/mdev = 0.136/20.596/79.773/34.177 ms
+
+
+====================================Finished 2 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr da:fb:16:53:65:9b ref 1 used 12/12/12 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ee:d4:dd:10:ac:48 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/1/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/1/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.003s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.003s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.003s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x1000002bbd8d4, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=81.5 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.62 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.138 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.135 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 0.135/21.094/81.483/34.879 ms
+
+
+====================================Finished 3 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr da:fb:16:53:65:9b ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ee:d4:dd:10:ac:48 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 36/0/36 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 36/0/36 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 3/1/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/1/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000021b41dc, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000ea6f4b8e, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x100002341485c, duration=2.005s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000dc56d70b, duration=2.004s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=76.0 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.70 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.145 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.153 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 0.145/19.497/75.988/32.621 ms
+
+
+====================================Finished 4 FOR LOOP====================
+
+
+10.0.0.2 dev h1-eth0 lladdr da:fb:16:53:65:9b ref 1 used 11/11/11 probes 4 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+10.0.0.1 dev h2-eth0 lladdr ee:d4:dd:10:ac:48 ref 1 used 13/10/10 probes 1 REACHABLE
+
+*** Round 1, deleting 1 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 36/0/36 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 35/0/35 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 34/1/34 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 35/0/35 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 35/0/35 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+172.20.0.15 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0f ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.18 dev br-36fd5368aeed lladdr 02:42:ac:14:00:12 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.13 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0d ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.16 dev br-36fd5368aeed lladdr 02:42:ac:14:00:10 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.11 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0b ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.19 dev br-36fd5368aeed lladdr 02:42:ac:14:00:13 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.14 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0e ref 1 used 3/0/3 probes 4 REACHABLE
+163.221.29.1 dev ens160 lladdr 40:8f:9d:71:67:70 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.17 dev br-36fd5368aeed lladdr 02:42:ac:14:00:11 ref 1 used 3/0/3 probes 4 REACHABLE
+172.20.0.12 dev br-36fd5368aeed lladdr 02:42:ac:14:00:0c ref 1 used 3/0/3 probes 4 REACHABLE
+
+*** Round 1, deleting 10 entries ***
+*** Flush is complete after 1 round ***
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000ea6f4b8e, duration=2.007s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100009465555a, duration=2.007s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000021b41dc, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x100007a585b6f, duration=2.006s, table=0, n_packets=1, n_bytes=87, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x10000dc56d70b, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x8942 actions=CONTROLLER:65535,clear_actions
+ cookie=0x10000c70edd85, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,arp actions=CONTROLLER:65535,clear_actions
+ cookie=0x100002341485c, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=5,ip actions=CONTROLLER:65535,clear_actions
+ cookie=0x1000002bbd8d4, duration=2.006s, table=0, n_packets=0, n_bytes=0, send_flow_rem priority=40000,dl_type=0x88cc actions=CONTROLLER:65535,clear_actions
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=71.1 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.50 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.138 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.146 ms
+
+--- 10.0.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3033ms
+rtt min/avg/max/mdev = 0.138/18.219/71.096/30.533 ms
+
+
+====================================Finished 5 FOR LOOP====================
+
+
+The Finished Date&Time is :2023-04-02 17:43:42.951179
