@@ -11,6 +11,7 @@ RUN apt-get install -y ./google-chrome-stable_current_amd64.deb
 
 RUN apt-get install -y openssh-server
 RUN apt-get install -y iputils-ping
+RUN apt install iproute2 -y
 RUN mkdir /root/onos/config
 # RUN apt-get install -y firefox
 # Set the display variable to connect to the X server
