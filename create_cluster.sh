@@ -181,7 +181,7 @@ create_atomix(){
       #if [[ ! " ${usedIps[@]} " =~ " ${currentIp} " ]]; then
       if ! containsElement $currentIp "${usedIps[@]}";
       then
-        sudo docker create -t --name atomix-$i --hostname atomix-$i --net $netName --ip $currentIp atomix/atomix:$atomixVersion >/dev/null
+        sudo docker create --privileged -t --name atomix-$i --hostname atomix-$i --net $netName --ip $currentIp atomix/atomix:$atomixVersion >/dev/null
         echo "Creating atomix-$i container with IP: $currentIp"
         goodIP=$currentIp
       fi
@@ -221,13 +221,13 @@ create_onos(){
       if ! containsElement $currentIp "${usedIps[@]}";
       then
         echo "Starting onos$i container with IP: $currentIp"
-        sudo docker run -t -d \
+        sudo docker run --privileged -t -d \
           --name onos$i \
           --hostname onos$i \
           --net $netName \
           --ip $currentIp \
           -e ONOS_APPS="drivers,openflow-base,netcfghostprovider,lldpprovider,gui2" \
-          onosproject/onos:$onosVersion >/dev/null
+          xingyuankang/onos_cluster:v4 >/dev/null
 
         goodIP=$currentIp
       fi
@@ -259,7 +259,7 @@ apply_onos_config(){
     pos=$((i-1))
     # cd
     onos/tools/test/bin/onos-gen-config ${allocatedOnosIps[$pos]} tmp/cluster-$i.json -n ${allocatedAtomixIps[*]} >/dev/null
-    sudo docker exec onos$i mkdir /root/onos/config
+    # sudo docker exec onos$i mkdir /root/onos/config
     echo "Copying configuration to onos$i"
     sudo docker cp tmp/cluster-$i.json onos$i:/root/onos/config/cluster.json
     echo "Restarting container onos$i"

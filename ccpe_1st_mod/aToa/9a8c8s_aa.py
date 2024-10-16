@@ -1,0 +1,64 @@
+from mininet.net import Mininet
+from mininet.node import Controller, RemoteController, OVSSwitch, OVSKernelSwitch
+from mininet.cli import CLI
+from mininet.log import setLogLevel, info
+from mininet.link import TCLink
+
+TOPOS = {'mytopo' : (lambda : multiControllerNet())}
+
+def multiControllerNet():
+    "Create a network from semi-scratch with multiple controllers."
+
+    net = Mininet( controller=RemoteController, switch=OVSKernelSwitch, waitConnected=True, link=TCLink )
+
+    info( "*** Creating (reference) controllers\n" )
+    # 6 Atomix nodes(2,3,4,5,6,7,8,9,10)
+    c1 = net.addController('c1', controller=RemoteController, ip="172.20.0.11", port=6653)
+    c2 = net.addController('c2', controller=RemoteController, ip="172.20.0.12", port=6653)
+    c3 = net.addController('c3', controller=RemoteController, ip="172.20.0.13", port=6653)
+    c4 = net.addController('c4', controller=RemoteController, ip="172.20.0.14", port=6653)
+    c5 = net.addController('c5', controller=RemoteController, ip="172.20.0.15", port=6653)
+    c6 = net.addController('c6', controller=RemoteController, ip="172.20.0.16", port=6653)
+    c7 = net.addController('c7', controller=RemoteController, ip="172.20.0.17", port=6653)
+    c8 = net.addController('c8', controller=RemoteController, ip="172.20.0.18", port=6653)
+
+    info( "*** Creating switches\n" )
+    s1 = net.addSwitch( 's1', protocols="OpenFlow13" )
+    s2 = net.addSwitch( 's2', protocols="OpenFlow13" )
+    s3 = net.addSwitch( 's3', protocols="OpenFlow13" )
+    s4 = net.addSwitch( 's4', protocols="OpenFlow13" )
+    s5 = net.addSwitch( 's5', protocols="OpenFlow13" )
+    s6 = net.addSwitch( 's6', protocols="OpenFlow13" )
+    s7 = net.addSwitch( 's7', protocols="OpenFlow13" )
+    s8 = net.addSwitch( 's8', protocols="OpenFlow13" )
+
+    info( "*** Creating hosts\n" )
+    h1 = net.addHost( 'h1' )
+    h2 = net.addHost( 'h2' )
+
+    info( "*** Creating links\n" )
+    s1.linkTo( h1 )
+    s2.linkTo( h2 )
+    s1.linkTo( s3 )
+    s3.linkTo( s4 )
+    s4.linkTo( s5 )
+    s5.linkTo( s6 )
+    s6.linkTo( s7 )
+    s7.linkTo( s8 )
+    s8.linkTo( s2 )
+
+    info( "*** Starting network\n" )
+    net.build()
+
+    net.start()
+
+    info( "*** Running CLI\n" )
+    CLI(net)
+
+    info( "*** Stopping network\n" )
+    net.stop()
+
+
+if __name__ == '__main__':
+    setLogLevel( 'info' )  # for CLI output
+    multiControllerNet()

@@ -37,10 +37,88 @@ S1=
 S2=
 S3=
 S4=
+S5=
+S6=
+S7=
+S8=
+S9=
+S10=
+S11=
+S12=
+S13=
+S14=
+S15=
+S16=
 
 
-# No.1
-# s1c1
+# # # No.1
+# # # s1c1
+# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S1
+
+# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S2
+
+# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S3
+
+# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S4
+
+
+
+
+# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S1
+# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S1
+
+# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S2
+# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S2
+
+# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S3
+# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S3
+
+# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S4
+# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S4
+
+# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S5
+# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S5
+# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S5
+# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S5
+
+# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S6
+# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S6
+# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S6
+# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S6
+
+# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S7
+# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S7
+# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S7
+# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S7
+
+# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S8
+# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S8
+# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S8
+# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S8
+
+
+
+
 sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S1
 sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S1
 sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S1
@@ -60,184 +138,63 @@ sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port 
 sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S4
 sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S4
 sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S4
-# # No.2
-# # s1c1
-# sudo tcset $ONOS1 --direction incoming --delay 287ms --network 172.20.0.1 --port $S1
-# # s1c2
-# sudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
 
-# # No.3
-# # s1c1
-# sudo tcset $ONOS1 --direction incoming --delay 287ms --network 172.20.0.1 --port $S1
-# # s1c2
-# sudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S5
+sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S5
+sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S5
+sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S5
 
-# # No.4
-# # s1c1
-# sudo tcset $ONOS1 --direction incoming --delay 287ms --network 172.20.0.1 --port $S1
-# # s1c2
-# bsudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
-# # s2c2
-# sudo tcset $ONOS2 --direction incoming --delay 345ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S6
+sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S6
+sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S6
+sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S6
 
-# # No.5
-# # s1c2
-# sudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
+sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S7
+sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S7
+sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S7
+sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S7
 
-# # No.6
-# # s1c2
-# sudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S8
+sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S8
+sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S8
+sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S8
 
-# # No.7
-# # s1c2
-# sudo tcset $ONOS2 --direction incoming --delay 444ms --network 172.20.0.1 --port $S1
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
-# # s2c2
-# sudo tcset $ONOS2 --direction incoming --delay 345ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S9
+sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S9
+sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S9
+sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S9
 
-# # No.8
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S10
+sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S10
+sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S10
+sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S10
 
-# # No.9
-# # s2c1
-# sudo tcset $ONOS1 --direction incoming --delay 666ms --network 172.20.0.1 --port $S2
-# # s2c2
-# sudo tcset $ONOS2 --direction incoming --delay 345ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S11
+sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S11
+sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S11
+sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S11
 
-# # No.10
-# # s2c2
-# sudo tcset $ONOS2 --direction incoming --delay 345ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S12
+sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S12
+sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S12
+sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S12
 
+sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S13
+sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S13
+sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S13
+sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S13
 
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S1
+sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S14
+sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S14
+sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S14
+sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S14
 
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S2
+sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S15
+sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S15
+sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S15
+sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S15
 
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S3
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S4
-
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S5
-
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S6
-
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S7
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S8
-
-
-
-
-
-
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S1
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S1
-
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S2
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S2
-
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S3
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S3
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S4
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S4
-
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S5
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S5
-
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S6
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S6
-
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S7
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S7
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S8
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S8
-
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S9
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S9
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S9
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S9
-
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S10
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S10
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S10
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S10
-
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S11
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S11
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S11
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S11
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S12
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S12
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S12
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S12
-
-# sudo tcset $ONOS1 --direction incoming --delay 20ms --network 172.20.0.1 --port $S13
-# sudo tcset $ONOS2 --direction incoming --delay 30ms --network 172.20.0.1 --port $S13
-# sudo tcset $ONOS3 --direction incoming --delay 99ms --network 172.20.0.1 --port $S13
-# sudo tcset $ONOS4 --direction incoming --delay 55ms --network 172.20.0.1 --port $S13
-
-# sudo tcset $ONOS1 --direction incoming --delay 99ms --network 172.20.0.1 --port $S14
-# sudo tcset $ONOS2 --direction incoming --delay 55ms --network 172.20.0.1 --port $S14
-# sudo tcset $ONOS3 --direction incoming --delay 11ms --network 172.20.0.1 --port $S14
-# sudo tcset $ONOS4 --direction incoming --delay 44ms --network 172.20.0.1 --port $S14
-
-# sudo tcset $ONOS1 --direction incoming --delay 11ms --network 172.20.0.1 --port $S15
-# sudo tcset $ONOS2 --direction incoming --delay 44ms --network 172.20.0.1 --port $S15
-# sudo tcset $ONOS3 --direction incoming --delay 88ms --network 172.20.0.1 --port $S15
-# sudo tcset $ONOS4 --direction incoming --delay 77ms --network 172.20.0.1 --port $S15
-
-# sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S16
-# sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S16
-# sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S16
-# sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S16
+sudo tcset $ONOS1 --direction incoming --delay 88ms --network 172.20.0.1 --port $S16
+sudo tcset $ONOS2 --direction incoming --delay 77ms --network 172.20.0.1 --port $S16
+sudo tcset $ONOS3 --direction incoming --delay 20ms --network 172.20.0.1 --port $S16
+sudo tcset $ONOS4 --direction incoming --delay 30ms --network 172.20.0.1 --port $S16
