@@ -13,14 +13,14 @@ set -x
 #   c11  
 #   c12  
 
-ONOS1=veth1ccdf12
-ONOS2=vethc09e780
-ONOS3=veth0f5fa47
-ONOS4=vethb2411c0
-# ONOS5=
-# ONOS6=
-# ONOS7=
-# ONOS8=
+ONOS1=veth709aa8f
+ONOS2=vethf2ab0eb
+ONOS3=veth337d521
+ONOS4=veth2813c4f
+ONOS5=veth88d5b26
+ONOS6=vethc6295b8
+ONOS7=veth9f1b0e8
+ONOS8=veth04e031a
 # ONOS9=
 # ONOS10=
 # ONOS11=
@@ -36,38 +36,39 @@ Atomix1_ip=172.20.0.2
 # ONOS3_ip=172.20.0.5
 # ONOS4_ip=172.20.0.6
 
-# C1
-sudo tcset $ONOS1 --direction incoming --delay 40ms --network $Atomix1_ip
-# sudo tcset $Atomix1 --direction incoming --delay 40ms --network $ONOS1_ip
-# C2
-sudo tcset $ONOS2 --direction incoming --delay 70ms --network $Atomix1_ip
-# sudo tcset $Atomix1 --direction incoming --delay 70ms --network $ONOS2_ip
-# C3
-sudo tcset $ONOS3 --direction incoming --delay 99ms --network $Atomix1_ip
-# sudo tcset $Atomix1 --direction incoming --delay 99ms --network $ONOS3_ip
-# C4
-sudo tcset $ONOS4 --direction incoming --delay 66ms --network $Atomix1_ip
-# sudo tcset $Atomix1 --direction incoming --delay 66ms --network $ONOS4_ip
-# outgoing
-
-
-
-# # # C1
+# # C1
 # sudo tcset $ONOS1 --direction incoming --delay 40ms --network $Atomix1_ip
+# # sudo tcset $Atomix1 --direction incoming --delay 40ms --network $ONOS1_ip
 # # C2
 # sudo tcset $ONOS2 --direction incoming --delay 70ms --network $Atomix1_ip
+# # sudo tcset $Atomix1 --direction incoming --delay 70ms --network $ONOS2_ip
 # # C3
 # sudo tcset $ONOS3 --direction incoming --delay 99ms --network $Atomix1_ip
+# # sudo tcset $Atomix1 --direction incoming --delay 99ms --network $ONOS3_ip
 # # C4
 # sudo tcset $ONOS4 --direction incoming --delay 66ms --network $Atomix1_ip
-# # C5
-# sudo tcset $ONOS5 --direction incoming --delay 50ms --network $Atomix1_ip
-# # C6
-# sudo tcset $ONOS6 --direction incoming --delay 22ms --network $Atomix1_ip
-# # C7
-# sudo tcset $ONOS7 --direction incoming --delay 57ms --network $Atomix1_ip
-# # C8
-# sudo tcset $ONOS8 --direction incoming --delay 15ms --network $Atomix1_ip
+# # sudo tcset $Atomix1 --direction incoming --delay 66ms --network $ONOS4_ip
+# # outgoing
+
+
+
+# # C1
+sudo tcset $ONOS1 --direction incoming --delay 80ms --network $Atomix1_ip
+# C2
+sudo tcset $ONOS2 --direction incoming --delay 70ms --network $Atomix1_ip
+# C3
+sudo tcset $ONOS3 --direction incoming --delay 99ms --network $Atomix1_ip
+# C4
+# sudo tcset $ONOS4 --direction incoming --delay 66ms --network $Atomix1_ip
+sudo tcset $ONOS4 --direction incoming --delay 95ms --network $Atomix1_ip
+# C5
+sudo tcset $ONOS5 --direction incoming --delay 50ms --network $Atomix1_ip
+# C6
+sudo tcset $ONOS6 --direction incoming --delay 22ms --network $Atomix1_ip
+# C7
+sudo tcset $ONOS7 --direction incoming --delay 57ms --network $Atomix1_ip
+# C8
+sudo tcset $ONOS8 --direction incoming --delay 15ms --network $Atomix1_ip
 
 
 

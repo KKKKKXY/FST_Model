@@ -1,3 +1,5 @@
+****Conroller to Atomix****
+
 CToA -> 1a4c4s (clean and waiting for a very long time - one night)
 mininet> h1 ping h2 -c 5
 PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
@@ -162,3 +164,503 @@ PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.150/20.797/100.516/39.872 ms
 
 =========================CToA -> 1a8c4s=============================
+
+CToA -> 1a8c4s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=49.7 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.41 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.132 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.132 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.133 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4029ms
+rtt min/avg/max/mdev = 0.132/10.495/49.671/19.607 ms
+
+CToA -> 1a8c4s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+From 10.0.0.1 icmp_seq=1 Destination Host Unreachable
+From 10.0.0.1 icmp_seq=2 Destination Host Unreachable
+From 10.0.0.1 icmp_seq=3 Destination Host Unreachable
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=34.8 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 1 received, +3 errors, 80% packet loss, time 4070ms
+rtt min/avg/max/mdev = 34.805/34.805/34.805/0.000 ms, pipe 4
+
+CToA -> 1a8c4s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=39.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.61 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.075 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.121 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.117 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4087ms
+rtt min/avg/max/mdev = 0.075/8.339/39.779/15.730 ms
+
+=========================CToA -> 1a8c8s=============================
+
+CToA -> 1a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=76.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.94 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.091 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.153 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.078 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4042ms
+rtt min/avg/max/mdev = 0.078/15.804/76.758/30.485 ms
+
+CToA -> 1a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=90.5 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.36 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.158 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.107 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4088ms
+rtt min/avg/max/mdev = 0.088/18.443/90.509/36.035 ms
+
+CToA -> 1a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=58.5 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.38 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.163 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.170 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.163 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4063ms
+rtt min/avg/max/mdev = 0.163/12.284/58.547/23.147 ms
+
+=========================CToA -> 1a8c16s=============================
+
+CToA -> 1a8c16s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=143 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=3.41 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.216 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.216 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.127 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4066ms
+rtt min/avg/max/mdev = 0.127/29.463/143.355/56.959 ms
+
+CToA -> 1a8c16s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=130 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=3.68 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.227 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.216 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.224 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4084ms
+rtt min/avg/max/mdev = 0.216/26.952/130.418/51.750 ms
+
+CToA -> 1a8c16s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=106 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=3.31 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.228 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.222 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.237 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4066ms
+rtt min/avg/max/mdev = 0.222/22.030/106.151/42.077 ms
+
+=========================CToA -> 1a16c4s=============================
+
+CToA -> 1a16c4s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=82.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.82 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.082 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.126 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.122 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4050ms
+rtt min/avg/max/mdev = 0.082/17.078/82.241/32.598 ms
+
+CToA -> 1a16c4s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=69.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.50 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.066 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.069 ms
+
+CToA -> 1a16c4s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1080 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=59.8 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=1.07 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.071 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.135 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4029ms
+rtt min/avg/max/mdev = 0.071/228.306/1080.458/426.696 ms, pipe 2
+
+CToA -> 1a16c4s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=57.0 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=5.01 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.764 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.163 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.149 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4056ms
+rtt min/avg/max/mdev = 0.149/12.622/57.030/22.277 ms
+
+
+
+****Conroller to Atomix****
+=========================AToA -> 3a4c2s=============================
+
+AToA -> 3a4c2s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=36.4 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.12 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.111 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.109 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.061 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4063ms
+rtt min/avg/max/mdev = 0.061/7.559/36.394/14.422 ms
+
+AToA -> 3a4c2s (clean and wait for ---------------------------------40 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=16.6 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=5.29 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.113 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.107 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.108 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4053ms
+rtt min/avg/max/mdev = 0.107/4.450/16.640/6.415 ms
+
+AToA -> 3a4c2s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=3.55 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=3.74 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=3.60 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=3.45 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 3.451/7.935/25.343/8.704 ms
+
+=========================AToA -> 3a4c8s=============================
+
+AToA -> 3a4c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=68.4 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.30 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.142 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.158 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4079ms
+rtt min/avg/max/mdev = 0.088/14.208/68.354/27.085 ms
+
+AToA -> 3a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=60.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.14 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.165 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.116 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.142 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4088ms
+rtt min/avg/max/mdev = 0.116/12.667/60.773/24.065 ms
+
+AToA -> 3a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=48.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.22 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.099 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.105 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.161 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4048ms
+rtt min/avg/max/mdev = 0.099/10.150/48.169/19.026 ms
+
+=========================AToA -> 3a8c8s=============================
+
+AToA -> 3a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=97.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.47 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.128 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.097 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.089 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4074ms
+rtt min/avg/max/mdev = 0.089/20.006/97.245/38.630 ms
+
+AToA -> 3a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=84.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=4.03 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.181 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.180 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.083 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4030ms
+rtt min/avg/max/mdev = 0.083/17.863/84.846/33.525 ms
+
+AToA -> 3a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=56.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.64 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.162 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.111 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.091 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4067ms
+rtt min/avg/max/mdev = 0.091/11.785/56.918/22.574 ms
+
+=========================AToA -> 6a4c2s=============================
+
+AToA -> 6a4c2s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=33.7 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.46 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.111 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.064 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.102 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4075ms
+rtt min/avg/max/mdev = 0.064/7.084/33.684/13.310 ms
+
+AToA -> 6a4c2s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=25.0 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=6.39 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.108 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.057 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.089 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4067ms
+rtt min/avg/max/mdev = 0.057/6.321/24.964/9.635 ms
+
+AToA -> 6a4c2s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.607 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.107 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.164 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.126 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4092ms
+rtt min/avg/max/mdev = 0.107/5.246/25.228/9.992 ms
+
+=========================AToA -> 6a4c8s=============================
+
+AToA -> 6a4c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=77.5 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.82 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.101 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.095 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.165 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4087ms
+rtt min/avg/max/mdev = 0.095/15.939/77.521/30.797 ms
+
+AToA -> 6a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=55.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.45 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.175 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.152 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4056ms
+rtt min/avg/max/mdev = 0.088/11.628/55.284/21.845 ms
+
+AToA -> 6a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=49.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.38 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.212 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.172 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.106 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4052ms
+rtt min/avg/max/mdev = 0.106/10.528/49.772/19.640 ms
+
+=========================AToA -> 6a8c8s=============================
+
+AToA -> 6a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=94.8 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.90 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.094 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.096 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.087 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4045ms
+rtt min/avg/max/mdev = 0.087/19.399/94.815/37.714 ms
+
+AToA -> 6a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=84.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.863 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.167 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.140 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.113 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4093ms
+rtt min/avg/max/mdev = 0.113/17.238/84.910/33.836 ms
+
+AToA -> 6a8c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=65.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.38 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.159 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.093 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.153 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4078ms
+rtt min/avg/max/mdev = 0.093/13.418/65.302/25.946 ms
+
+=========================AToA -> 9a4c2s=============================
+
+AToA -> 9a4c2s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=38.4 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.10 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.059 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.058 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.064 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4036ms
+rtt min/avg/max/mdev = 0.058/7.945/38.444/15.254 ms
+
+AToA -> 9a4c2s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=29.5 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.83 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.108 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.073 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.056 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4044ms
+rtt min/avg/max/mdev = 0.056/6.510/29.489/11.538 ms
+
+AToA -> 9a4c2s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=26.3 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.795 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.106 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.052 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.059 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4064ms
+rtt min/avg/max/mdev = 0.052/5.471/26.347/10.441 ms
+
+=========================AToA -> 9a4c8s=============================
+
+AToA -> 9a4c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=67.7 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.63 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.092 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.086 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4033ms
+rtt min/avg/max/mdev = 0.086/14.119/67.704/26.810 ms
+
+AToA -> 9a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=66.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=2.18 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.085 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.150 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.082 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4050ms
+rtt min/avg/max/mdev = 0.082/13.746/66.233/26.255 ms
+
+AToA -> 9a4c8s (clean and wait for 30 secs)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=52.9 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.70 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.090 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.160 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.097 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4050ms
+rtt min/avg/max/mdev = 0.090/10.996/52.935/20.978 ms
+
+=========================AToA -> 9a8c8s=============================
+AToA -> 9a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=2125 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1111 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=86.7 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=2.61 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.160 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4042ms
+rtt min/avg/max/mdev = 0.160/665.139/2125.403/842.217 ms, pipe 3
+
+AToA -> 9a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=74.6 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.84 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.137 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.147 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.146 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4060ms
+rtt min/avg/max/mdev = 0.137/15.371/74.586/29.614 ms
+
+AToA -> 9a8c8s (new startup)
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=58.6 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=1.39 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.170 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.097 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=0.087 ms
+
+--- 10.0.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4054ms
+rtt min/avg/max/mdev = 0.087/12.068/58.595/23.268 ms

@@ -11,14 +11,14 @@
 sudo ip -s -s neigh flush all
 
 # delete all TC configurations
-ONOS1=veth1ccdf12
-ONOS2=vethc09e780
-ONOS3=veth0f5fa47
-ONOS4=vethb2411c0
-# ONOS5=
-# ONOS6=
-# ONOS7=
-# ONOS8=
+ONOS1=veth709aa8f
+ONOS2=vethf2ab0eb
+ONOS3=veth337d521
+ONOS4=veth2813c4f
+ONOS5=veth88d5b26
+ONOS6=vethc6295b8
+ONOS7=veth9f1b0e8
+ONOS8=veth04e031a
 # ONOS9=
 # ONOS10=
 # ONOS11=
@@ -40,10 +40,10 @@ sudo tcdel $ONOS1 --all
 sudo tcdel $ONOS2 --all
 sudo tcdel $ONOS3 --all
 sudo tcdel $ONOS4 --all
-# sudo tcdel $ONOS5 --all
-# sudo tcdel $ONOS6 --all
-# sudo tcdel $ONOS7 --all
-# sudo tcdel $ONOS8 --all
+sudo tcdel $ONOS5 --all
+sudo tcdel $ONOS6 --all
+sudo tcdel $ONOS7 --all
+sudo tcdel $ONOS8 --all
 # sudo tcdel $ONOS9 --all
 # sudo tcdel $ONOS10 --all
 # sudo tcdel $ONOS11 --all
